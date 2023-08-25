@@ -300,8 +300,60 @@
     </div>
   </div>
 </div>
+
+
+
+<style>
+/* Apply modern styling to the form */
+form {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input fields */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+/* Style the textarea */
+textarea {
+  height: 150px; /* Adjust the height as needed */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  /* Center the button and add margins */
+  display: block;
+  margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+</style>
 <!-- Contact Section -->
-<div id="contact" class="text-center">
+<div id="contact" class="text-center" style="margin: -80px;"">
   <div class="container">
     <div class="section-title text-center">
       <h2>Contact Us</h2>
@@ -336,40 +388,45 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3>Leave us a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
     </div>
   </div>
 </div>
+
+				<!-- Contact -->
+        <section id="contact" class="four" style="margin: -80px; ;">
+          <div class="container">
+            <div class="contact-section">
+            <form method="post" action="https://formspree.io/f/mdorgzjv">
+              <div class="row">
+                <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+                <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                <div class="col-12">
+                  <textarea name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="col-12">
+                  <input type="submit" value="Send Message" />
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </section>
+
+
+
+
+
+
+
 <!-- Footer Section -->
 <div id="footer">
   <div class="container text-center">
     <div class="col-md-8 col-md-offset-2">
       <div class="social">
         <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://www.facebook.com/p/maksoud_renovation-100083065073868/?paipv=0&eav=Afa6YL7ygGDTdOn1KgwDwpgu3ODdHtJgx83xCrzMlOVzlPFDZdBcOhYOO6mWUf4_fsI&_rdr"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/maksoud_renovations/"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="mailto:m_renovation@outlook.com"><i class="fa fa-envelope-o"></i></a></li>
         </ul>
       </div>
       <p>&copy; 2016 Landscaper. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
