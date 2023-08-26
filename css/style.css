@@ -243,17 +243,17 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
-	background: #6aaf08;
+	background: linear-gradient(to bottom, #c9644b9c, #d2b48c);
 }
 #services .service-media {
 	margin: 10px;
 }
 #services .service-media img {
 	position: relative;
-	width: 225px;
-	height: 225px;
+	width: 275px;
+	height: 275px;
 	border-radius: 50%;
-	border: 10px solid rgba(255,255,255,0.1);
+	border: 10px solid rgba(0, 0, 0, 0.1);
 }
 #services .service-desc {
 	margin: 10px 10px 40px;
@@ -382,12 +382,12 @@ ol.type li a:hover {
 }
 /* Testimonials Section */
 #testimonials {
-	background: #444 url(../img/testimonials-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/Remodelling01.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #testimonials .overlay {
 	padding: 120px 0;
-	background: rgba(106, 175, 8, 0.85);
+	background: rgba(211, 166, 83, 0.676);
 }
 #testimonials h2 {
 	color: #fff;
